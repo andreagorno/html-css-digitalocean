@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>html-css-digitalocean</title>
+    </head>
+    <body>
+
+        <header>
+            <div class="container my_navbar">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <img src="img/logo.png" alt="logo" id="logo">
+                    </div>
+                    <div class="col-xs-9">
+                        <ul class="my_nav my_navbar_nav">
+                            <li class="active">
+                                <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Customers</a>
+                            </li>
+                            <li>
+                                <a href="#">Community <i class="fas fa-chevron-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing<span class="caret"></span></a>
+                            </li>
+                        </ul>
+
+                        <ul class="my_nav my_navbar_nav navbar-right">
+                            <li>
+                                <a href="#">Docs</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Support <i class="fas fa-chevron-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <li>
+                                <a href="#" id="my_button_blue">Sign Up</a>
+                            </li>
+                        </ul>
+                        
+                        <button type="button" class="navbar_toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper_100" id="jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="title">
+                                <h1>
+                                    The simplest cloud platform for developers & teams
+                                </h1>
+                                <p>
+                                    Deploy, manage, and scale cloud applications faster and more efficently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="box_white">
+                                <h2>
+                                    Deploy your app in seconds.
+                                </h2>
+                                <h3>
+                                    Get started now.
+                                </h3>
+                                <input type="email" placeholder="Email">
+                                <input type="text" placeholder="Password">
+                                <a href="#" class="sign_up sign_up_blue">Create your account</a>
+                                <a href="#" class="sign_up sign_up_white">
+                                    <img src="img/google-icon.png" alt="google-icon" id="google_icon">
+                                    Sign up with google
+                                </a>
+                                <p>
+                                    By signing up you agree to the <a href="#">Terms of Service</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper_100" id="partners">
+                <div class="container">
+                    <div>
+                        <h3>
+                            innovative businesses trust digitalocean
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-2">
+                            <img src="img/docker.svg" alt="docker">
+                        </div>
+                        <div class="col-xs-6 col-sm-2">
+                            <img src="img/gitlab.svg" alt="gitlab">
+                        </div>
+                        <div class="col-xs-6 col-sm-2">
+                            <img src="img/slack.svg" alt="slack">
+                        </div>
+                        <div class="col-xs-6 col-sm-2">
+                            <img src="img/hashicorp.svg" alt="hashicorp">
+                        </div>
+                        <div class="col-xs-6 col-sm-2">
+                            <img src="img/hashicorp.svg" alt="hashicorp">
+                        </div>
+                        <div class="col-xs-6 col-sm-2">
+                            <img src="img/splunk.svg" alt="splunk">
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#">View customer stories</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="deployment">
+                <div class="container">
+                    <div>
+                        <h2 class="section_title">
+                            Deploy and scale seamlessly
+                        </h2>
+                        <p>
+                            Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD enviroments.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-sm-offset-1">
+                            <ul>
+                                <li>
+                                    <a href="#">Deploy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Manage</a>
+                                </li>
+                                <li>
+                                    <a href="#">Secure</a>
+                                </li>
+                                <li>
+                                    <a href="#">Scale</a>
+                                </li>
+                                <li>
+                                    <a href="#">Monitor</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-8 text_block">
+                           <div class="col-sm-6">
+                               <img src="img/cluster-deploy.svg" alt="cluster-deploy">
+                               <h3>
+                                   Cluster deployments
+                               </h3>
+                               <p>
+                                   Prevision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.
+                               </p>
+                           </div> 
+                           <div class="col-sm-6">
+                            <img src="img/optimized-compute.svg" alt="optimized-compute">
+                            <h3>
+                                Optimized compute types
+                            </h3>
+                            <p>
+                                Get the compute resources you need Standard or Optimized Droplets.
+                            </p>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="row">    
+                        <div class="col-sm-8 col-sm-offset-4 text_block">
+                           <div class="col-sm-6">
+                                <img src="img/one-click.svg" alt="one-click">
+                                <h3>
+                                    One-click apps
+                                </h3>
+                                <p>
+                                    Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.
+                                </p>
+                           </div> 
+                           <div class="col-sm-6">
+                                <img src="img/global.svg" alt="global">
+                                <h3>
+                                    Global availability
+                                </h3>
+                                <p>
+                                    Deploy to any of our data center regions around the world.
+                                </p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="wrapper_100 example">
+                <div class="container">
+                    <div>
+                        <h2 class="section_title">
+                            Designed for developers
+                        </h2>
+                        <p>
+                            Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <i class="fas fa-chevron-left"></i>
+                            <i class="fas fa-chevron-right"></i>
+                            <figure>
+                                <img src="img/slide.jpg" alt="slide">
+                                <figcaption>Create compute servers in 55 seconds or less.</figcaption>
+                            </figure>
+                            <div>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features">
+                <div class="container">
+                    <div class="row text_block">
+                        <h2 class="section_title">
+                            The features your business needs
+                        </h2>
+                        <div class="col-sm-4">
+                            <img src="img/pred-pricing.svg" alt="pred-pricing">
+                            <h3>
+                                Predictable pricing
+                            </h3>
+                            <p>
+                                Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.
+                            </p>
+                            <a href="#">
+                                Pricing >
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/world-class.svg" alt="world-class">
+                            <h3>
+                                World-class service
+                            </h3>
+                            <p>
+                                Free round-the-clock technical support for all customers. You'll feel the love.
+                            </p>
+                            <a href="#">
+                                Support >
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/reliable-platform.svg" alt="reliable-platform">
+                            <h3>
+                                Reliable platform
+                            </h3>
+                            <p>
+                                More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
+                            </p>
+                            <a href="#">
+                                Security >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="speed_test">
+                <div class="container">
+                    <div class="row">
+                        <h2>
+                            Service your customers around the world from 12 regions.
+                        </h2>
+                        <div class="col-md-6">
+                            <table>
+                                <tr>
+                                    <td>AMS2</td>
+                                    <td>Amsterdam, Netherlands</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>AMS3</td>
+                                    <td>Amsterdam, Netherlands</td>
+                                    <td><a href="à">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>BLR1</td>
+                                    <td>Bangalore, India</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>FRA1</td>
+                                    <td>Frankfurt, German</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>LON1</td>
+                                    <td>London, UK</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>NYC1</td>
+                                    <td>New York, USA</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <table>
+                                <tr>
+                                    <td>AMS2</td>
+                                    <td>Amsterdam, Netherlands</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>AMS3</td>
+                                    <td>Amsterdam, Netherlands</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>BLR1</td>
+                                    <td>Bangalore, India</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>FRA1</td>
+                                    <td>Frankfurt, German</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>LON1</td>
+                                    <td>London, UK</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                                <tr>
+                                    <td>NYC1</td>
+                                    <td>New York, USA</td>
+                                    <td><a href="#">Test speed ></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="wrapper_100 example">
+                <div class="container">
+                    <div>
+                        <h2 class="section_title">
+                            Development teams love DigitalOcean
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <i class="fas fa-chevron-left"></i>
+                            <i class="fas fa-chevron-right"></i>
+                            <div class="rocker_box">
+                                <img src="img/rockerbox.png" alt="rockerbox">
+                                <h3>
+                                    "We have been able to make scaling the technical infrastructure of our business cost effective and effivient."
+                                </h3>
+                                <h4>
+                                    Rick O'Toole
+                                </h4>
+                                <h5>
+                                    Co-founder and CTO
+                                </h5>
+                                <a href="#">
+                                    Read story >
+                                </a>
+                            </div>
+                            <div>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="get_started">
+                <div>
+                    <h2>
+                        Get started now.
+                    </h2>
+                    <a href="#">Create your account</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/logo-small.svg" alt="logo-small">
+                        <ul>
+                            <li>
+                                2018 DigitalOcean, LLC. All rights reserved.
+                            </li>
+                            <li>
+                                Proudly made in NY
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="col-sm-6 col-lg-3">
+                            <ul class="footer_style">
+                                <li>Company</li>
+                                <li>About</li>
+                                <li>Leadership</li>
+                                <li>Link</li>
+                                <li>Blog</li>
+                                <li>Careers</li>
+                                <li>Partner Network</li>
+                                <li>Referral Program</li>
+                                <li>Events</li>
+                                <li>Press</li>
+                                <li>Legal & Security</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <ul class="footer_style">
+                                <li>Products</li>
+                                <li>Droplets</li>
+                                <li>Spaces</li>
+                                <li>Kubernetes</li>
+                                <li>Load Balancers</li>
+                                <li>Block Storage</li>
+                                <li>Tools & Integrations</li>
+                                <li>One-Click Apps</li>
+                                <li>API</li>
+                                <li>Pricing</li>
+                                <li>Documentation</li>
+                                <li>Release Notes</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <ul class="footer_style">
+                                <li>Community</li>
+                                <li>Tutorials</li>
+                                <li>Meetups</li>
+                                <li>Q&A</li>
+                                <li>Write for Donations</li>
+                                <li>Droplets for Demos</li>
+                                <li>Hatch</li>
+                                <li>Shop Swag</li>
+                                <li>Research Program</li>
+                                <li>Currents Research</li>
+                                <li>Open Source</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <ul class="footer_style">
+                                <li>Support</li>
+                                <li>Contact support</li>
+                                <li>FAQ</li>
+                                <li>Network Status</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
