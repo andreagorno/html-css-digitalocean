@@ -9,11 +9,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 .wrapper_100 {
     width: 100%;
 }
 
+a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
 
 /* header start */
 
@@ -107,6 +112,14 @@
     word-spacing: 2px;
 }
 
+@media all and (min-width:1200px) {
+    
+    .title h1 {
+        font-size: 60px;
+    }
+
+}
+
 .box_white {
     margin: 10px 0;
     padding: 20px;
@@ -198,13 +211,14 @@
 }
 .section_title {
     text-align: center;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
     color: black;
 }
 .section_title+p {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 18px;
 }
 
 #deployment ul {
@@ -221,11 +235,7 @@
 
 .text_block h3 {
     color: black;
-    font-size: 16px;
     font-weight: bold;
-}
-.text_block h3+p {
-    font-size: 14px;
 }
 /* /deployment */
 
@@ -403,3 +413,77 @@ footer i {
     font-size: 24px;
 }
 
+/* shark bubble start */
+.speech_bubble {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px grey;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+  
+.speech_bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+  
+.bottom {
+    border-width: 8px 8px 0px 8px;
+    right: -12px;
+    bottom: 11px;
+    transform: rotate(-90deg);
+    border-color: #FFFFFF transparent transparent transparent;
+}
+  
+.bottom:after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    bottom: 1px;
+    left: -7px;
+    border-width: 8px 7px 0px 7px;
+    border-color: #FFFFFF transparent transparent transparent;
+}
+  
+#shark_bubble {
+    float: none;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    background-color: #2485FD;
+}
+#shark_bubble img {
+    height: 45px;
+}
+  
+#help_desk {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 350px;
+    padding-left: 10px;
+    z-index: 999;
+}
+  
+@media all and (min-width:1200px) {
+  
+    #shark_bubble {
+      float: right;
+      margin-top: 5px;
+    }
+  
+    #help_desk {
+      position: fixed;
+      bottom: 20px;
+      left: 70%;
+    }
+  
+}
+/* /shark bubble start */
