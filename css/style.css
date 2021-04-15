@@ -331,6 +331,8 @@ a:hover {
 }
 #speed_test .col-xs-4 {
     text-align: right;
+}
+#speed_test .col-xs-4 a {
     color: #48D1CC;
 }
 
@@ -405,7 +407,12 @@ footer li{
     font-size: 14px;
     font-weight: bold;
 }
-.footer_style li:first-child {
+.footer_style a{
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}
+.footer_style li:first-child a{
     font-size: 18px;
     color: white;
     font-weight: bold;
@@ -415,7 +422,7 @@ footer li:first-child {
     color: grey;
     font-weight: bold;
 }
-footer a {
+footer .social_media a {
     display: inline-block;
     width: 30px;
     height: 30px;
