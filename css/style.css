@@ -28,7 +28,7 @@ a:hover {
 }
 
 .my_navbar {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .my_navbar_nav a {
@@ -151,6 +151,7 @@ a:hover {
     font-size: 12px;
 }
 .box_white p>a {
+    font-size: 12px;
     text-decoration: underline;
     color: #2485FD;
 }
@@ -295,6 +296,9 @@ a:hover {
 #features {
     padding: 30px 0;
 }
+#features h2 {
+    margin-bottom: 20px;
+}
 /* features */
 
 /* speed-test */
@@ -303,29 +307,38 @@ a:hover {
     padding: 40px 0;
 }
 #speed_test h2 {
+    margin: 30px;
     color: white;
     font-size: 36px;
     text-align: center;
 }
-#speed_test table {
-    width: 100%;
-    margin: 40px 0;
+#speed_test .row {
+    margin-right: 10px;
+    padding-top: 10px;
+    color: white;
+}
+  
+#speed_test .col-xs-2,
+#speed_test .col-xs-6,
+#speed_test .col-xs-4 {
+    padding: 5px 0;
+}
+#speed_test .col-xs-2 {
+    font-weight: bold;
+}
+#speed_test .col-xs-6 {
     color: lightgray;
 }
-#speed_test tr {
-    line-height: 40px;
-    border-bottom: 1px solid white;
-}
-#speed_test a {
+#speed_test .col-xs-4 {
+    text-align: right;
     color: #48D1CC;
 }
 
-#speed_test td:first-child {
-    font-weight: bold;
-    color: white;
+#speed_test .col-md-6 .row:not(.row:last-child) {
+    border-bottom: 1px solid white;
 }
-#speed_test td:last-child {
-    text-align: right;
+#speed_test .col-md-6 {
+    margin-top: 30px;
 }
 /* speed-test */
 
@@ -389,7 +402,7 @@ footer ul {
 }
 footer li{
     padding: 5px 0;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 .footer_style li:first-child {
@@ -398,7 +411,7 @@ footer li{
     font-weight: bold;
 }
 footer li:first-child {
-    font-size: 18px;
+    font-size: 17px;
     color: grey;
     font-weight: bold;
 }
